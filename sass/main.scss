@@ -1,0 +1,30 @@
+@function colors($color-name){
+	@return map-get($colors , $color-name)
+};
+@function values($value-name){
+	@return map-get($values, $value-name)
+};
+
+
+$colors: (
+	primary: #A4031F,
+	secondary: #240B36,
+	accent: #F2DC5D,
+
+);
+
+$values:(
+	width-div: 500px,
+	height-div:250px,
+	police:sans-serif,
+);
+
+body{
+	color:colors(primary);
+	background-color:colors(secondary);
+}
+
+.main-container {
+	width : $values(width-div );
+	height :  $values(height-div);
+}

@@ -1,0 +1,102 @@
+.bottom-navigation{
+	background: color(bg-article);
+
+	margin: 0 auto;
+
+
+}
+.nav-bottom{
+	max-width: value(width-container);
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	// margin: 1rem 23.5rem 1rem 11.5rem;
+
+}
+.nav-links{
+	margin-bottom: 0;
+
+	.nav-items{
+		margin-right: 6rem;
+	}
+
+	a{
+	padding: 0 .5rem;
+
+	}
+
+}
+
+.contact{
+	max-width: value(width-container);
+	margin: 2rem auto;
+	padding: 0 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 3rem;
+
+	i{
+		font-size: 1.5rem;
+		padding: 1rem;
+		font-family: "Fontawesome" !important;
+		font-style: normal;
+
+	}
+
+	&-twitter{
+		color: color-icon(twitter);
+	}
+	&-facebook{
+		color: color-icon(facebook);
+	}
+	&-instagram{
+		color: color-icon(instagram);
+	}
+	&-pinterest{
+		color: color-icon(pinterest);
+	}
+
+
+}
+.left-contact {
+	background:color(bg-article) ;
+	width: 30%;
+	margin-right: 2rem;
+	 padding-bottom: 1rem;
+
+
+		.contact-icons{
+			display: flex;
+			align-items: center;
+	   		justify-content: center;
+			flex-wrap: wrap;
+			//  width: 50%;
+		}
+	}
+
+
+
+.icon-1{
+	margin: 0 1rem 1rem 0;
+}
+
+		span{
+	color: color(text);
+	font-family: font(title);
+	font-size: 1rem;
+
+	}
+
+
+.newslettre{
+
+
+	margin-right: 2rem;
+	p{
+		color:color(text) ;
+		font-size: .9rem;
+	}
+}

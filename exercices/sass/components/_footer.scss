@@ -1,0 +1,28 @@
+
+footer{
+	height: 10vh;
+	max-width: value(width-container);
+	margin:0 auto ;
+
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+
+	border-top: 1px solid #777777;
+		p{
+			color: color(text);
+			font-size: .8rem;
+	}
+
+
+	.top::after{
+		content: "";
+		 width: 0px;
+		height: 0px;
+		border-right: 12px solid transparent;
+		border-bottom: 12px solid #EE3E52;
+		border-left: 12px solid transparent;
+		position: absolute;
+		margin-left: 1rem;
+	 }
+}

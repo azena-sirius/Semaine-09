@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAQA,AAAA,IAAI,CAAA;EACF,gBAAgB,ECRR,OAAO;EDSf,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CACpB;;AAED,AAAA,eAAe,CAAA;EACb,SAAS,ECTQ,MAAM;CDUxB",
+    "sources": [
+        "../exercices/sass/main.scss",
+        "../exercices/sass/components/_variables.scss",
+        "../exercices/sass/components/_functions.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

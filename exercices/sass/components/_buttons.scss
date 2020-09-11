@@ -1,0 +1,66 @@
+.main-btn{
+	width: 10rem;
+	margin-right: 20rem;
+	margin-top: 1rem;
+	padding: .8rem 2rem;
+	background:color(main-btn);
+	color: color(text);
+	border: none;
+
+}
+button{
+	z-index: 500;
+	width: 8rem;
+	position: relative;
+	bottom: -21px;
+	margin-left: 20.5rem;
+    margin-bottom: -1rem;
+	background:color(bg-button);
+	color: color(text);
+	padding: .6rem 1rem;
+	border: none;
+}
+
+.social-btn{
+	width: 20rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    color:color(title);
+    padding: 1rem 2rem;
+	border: none;
+	font-family: "Fontawesome";
+	font-size: .8rem;
+	text-align: start;
+
+		i{
+		font-size: 1.5rem;
+    	color: color(title);
+    	margin-left: 11rem;
+    	font-family: "Fontawesome" !important;
+		font-style: normal;
+		text-align: end;
+	}
+}
+
+
+
+.twitter{
+	background: color-icon(twitter);
+}
+ .facebook{
+	background: color-icon(facebook);
+}
+ .instagram{
+	background: color-icon(instagram);
+}
+.enter{
+	width:15rem;
+	padding: 1rem 2rem;
+	margin-left: 0;
+	bottom: 0;
+	// text-align: center;
+	.share{
+		margin-left: 3rem;
+	}
+}
+

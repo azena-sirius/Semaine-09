@@ -1,8 +1,42 @@
 $colors:(
-  bg-main:#33264E,
-  bg-footer: #362953
+	bg-main:#33264E,
+	bg-article:#362953,
+	bg-footer: #362953,
+	title:#fff,
+  	main-btn: #EE3E52,
+	bg-button:linear-gradient( to right,  #FF6071 , #FF7E8E),
+	logo: #ebebeb,
+	nav: #dadada,
+	text:rgb(245, 245, 245),
+	cat1:#673AB7,
+	cat2:#5567DA,
+	cat3:#1E88E5,
+	cat4:#27CC81,
+	cat5:#38C4D1,
+	cat6:#E91E63,
+);
+
+
+
+
+$icons-color:(
+	twitter: #63CDF1,
+	facebook: #507CBE,
+	instagram: #D62976,
+	pinterest: #EE3E52,
+);
+
+
+$fonts:(
+	logo:"Vampiro One",
+	title:"Playfair Display",
+	text:"Mulish",
 );
 
 $values:(
-  width-container: 1200px,
+	width-container: 1200px,
+	width-article:800px,
+	width-sidebar:332px,
+	width-carousel:1600px,
+	height-carousel:480px,
 );

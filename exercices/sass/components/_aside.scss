@@ -1,0 +1,91 @@
+aside{
+	max-width:  value(width-sidebar);
+	.posts{
+	width: 100%;
+	margin-bottom: 2rem;
+
+	}
+
+}
+
+.post{
+	width: 100%;
+	margin-bottom:.5rem;
+	display: flex;
+	img{
+		width: 100px;
+		height:100px;
+		object-fit: cover;
+
+
+	}
+}
+
+.post-discription{
+	h4{
+		margin-bottom: 1rem;
+	}
+}
+
+
+//*======start-social-profiles======*//
+.social-profiles{
+	margin-bottom: 2.5rem;
+}
+
+.categories{
+	display: flex;
+	align-items: center;
+
+	flex-wrap: wrap;
+
+	font-size: 1rem;
+	font-family: font(text);
+	color: color(text);
+	margin-bottom: 2rem;
+	line-height: 2rem;
+}
+
+@mixin category-bullet {
+	content:'';
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	margin: 2px 8px 2px 4px;
+	font-family: font(text);
+   }
+   .category{
+	&-cat1::before{
+	background-color: color(cat1);
+	@include category-bullet;
+	}
+	&-cat2::before{
+	background-color: color(cat2);
+	@include category-bullet;
+	}
+	&-cat3::before{
+	background-color: color(cat3);
+	@include category-bullet;
+	}
+	&-cat4::before{
+	background-color: color(cat4);
+	@include category-bullet;
+	}
+	&-cat5::before{
+	background-color: color(cat5);
+	@include category-bullet;
+	}
+	&-cat6::before{
+	background-color: color(cat6);
+	@include category-bullet;
+	}
+   }
+
+.ad-img {
+	img{
+	width: 50%;
+}
+}
+
+

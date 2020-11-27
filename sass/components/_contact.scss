@@ -38,6 +38,11 @@
 	align-items: center;
 	margin-bottom: 3rem;
 
+	.contact-title{
+		padding: 1rem 1rem;
+	}
+
+
 	i{
 		font-size: 1.5rem;
 		padding: 1rem;
@@ -61,9 +66,11 @@
 
 
 }
+
 .left-contact {
 	background:color(bg-article) ;
 	width: 30%;
+	height: 175px;
 	margin-right: 2rem;
 	 padding-bottom: 1rem;
 
@@ -71,7 +78,7 @@
 		.contact-icons{
 			display: flex;
 			align-items: center;
-	   		justify-content: center;
+
 			flex-wrap: wrap;
 			//  width: 50%;
 		}
@@ -79,16 +86,25 @@
 
 
 
-.icon-1{
+ .icon-1{
 	margin: 0 1rem 1rem 0;
 }
-
+.icon-2{
+	margin: 0 1rem 1rem 0;
+}
+.icon-3{
+	margin: 0 1rem 1rem 0;
+}
+.icon-4{
+	margin: 0 1rem 1rem 0;
+}
 		span{
 	color: color(text);
 	font-family: font(title);
 	font-size: 1rem;
 
 	}
+
 
 
 .newslettre{

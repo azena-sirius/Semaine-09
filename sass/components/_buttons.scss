@@ -23,36 +23,55 @@ button{
 
 .social-btn{
 	width: 20rem;
-    margin-bottom: 1rem;
-    margin-left: 0rem;
-    color:color(title);
-    padding: 1rem 2rem;
+	margin-bottom: 1rem;
+	margin-left: 0rem;
+	color:color(title);
+   	padding: 1rem 2rem;
 	border: none;
 	font-family: "Fontawesome";
 	font-size: .8rem;
 	text-align: start;
+	margin-bottom: 2rem;
 
 		i{
-		font-size: 1.5rem;
-    	color: color(title);
-    	margin-left: 11rem;
+ 		font-size: 1.5rem;
+     	color: color(title);
+     	margin-left: 11rem;
     	font-family: "Fontawesome" !important;
-		font-style: normal;
+ 		font-style: normal;
 		text-align: end;
 	}
+ }
+
+
+
+ .twitter{
+ 	background: color-icon(twitter);
 }
-
-
-
-.twitter{
-	background: color-icon(twitter);
-}
- .facebook{
+  .facebook{
 	background: color-icon(facebook);
-}
+ }
  .instagram{
 	background: color-icon(instagram);
 }
+.social-icons{
+	a{
+
+
+			background-color: #f44336;
+			color: white;
+			padding: 1rem 1.5rem;
+			text-align: center;
+			text-decoration: none;
+			display: block;
+			margin-bottom: 1rem;
+
+
+}
+}
+
+
+
 .enter{
 	width:15rem;
 	padding: 1rem 2rem;

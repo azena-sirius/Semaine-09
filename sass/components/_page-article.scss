@@ -1,0 +1,43 @@
+.main-article{
+	width:750px;
+}
+
+.article{
+	.articl-info{
+		margin-left: 0;
+	}
+	width: value(width-article);
+	margin-bottom: 2rem;
+	p{
+		text-align: justify;
+		line-height: 2rem;
+		font-size:1.2rem ;
+	}
+}
+.article-name{
+	width: 639px;
+}
+.article-image{
+	width: 800px;
+	object-fit: cover;
+}
+.writer-article{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	margin-right: 15rem;
+	img{
+		width:50px;
+		height: 50px;
+		border-radius: 50%;
+		display: inline-block;
+		margin-right: 6px;
+
+	}
+
+}

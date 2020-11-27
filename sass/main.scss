@@ -1,30 +1,159 @@
-@function colors($color-name){
-	@return map-get($colors , $color-name)
-};
-@function values($value-name){
-	@return map-get($values, $value-name)
-};
+// Ceci est un début de code, vous pouvez vous en inspirez pour commencer ou bien repartir à zéro!
+
+// Import des variables et fonctions nécessaires
+
+@import 'components/variables';
+@import 'components/functions';
+@import 'components/header';
+@import 'components/carousel';
+@import 'components/article';
+@import 'components/aside';
+@import 'components/buttons';
+@import 'components/contact';
+@import 'components/footer';
+@import 'components/page-article';
 
 
-$colors: (
-	primary: #A4031F,
-	secondary: #240B36,
-	accent: #F2DC5D,
 
-);
 
-$values:(
-	width-div: 500px,
-	height-div:250px,
-	police:sans-serif,
-);
 
+
+//=====Global styles=====//
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 body{
-	color:colors(primary);
-	background-color:colors(secondary);
+	background: color(bg-main) ;
+	// display: grid;
+	// place-items: center;
+	height: 100%;
+	font-family: font(text);
+
+}
+h1{
+	font-family:font(title);
+	font-size: 2.5rem;
+	font-weight: 300;
+	color:color(title) ;
+	text-align: center;
+
+}
+h2{
+	font-size: 2rem;
+	font-weight: 200;
+	font-family: font(title);
+	color: color(title) ;
+}
+h3{
+	font-family:font(title);
+	font-size: 1.5rem;
+	font-weight: 800;
+	color:color(title);
+	margin-bottom: 1rem;
+	letter-spacing: .1rem;
+}
+ h3::after{
+    content: "";
+    width: 9rem;
+    height: 2px;
+    background-color:color(main-btn);
+    display: inline-block;
+    margin-left: .5rem;
+    margin-bottom: 0.3rem;
+
+}
+h4{
+	font-size: .6;
+	font-weight: normal;
+	font-family: font(title);
+	color:color(title);
+	margin-left: .5rem;
+}
+h5{
+	font-family: font(text);
+	font-size:.8rem ;
+	font-weight: 100;
+	color: color(title);
+
+}
+h6{
+	font-size: .8rem;
+	letter-spacing: .1rem;
+	color: #fff;
+	padding: 0;
+	margin-top: .5rem;
+
 }
 
-.main-container {
-	width : $values(width-div );
-	height :  $values(height-div);
+h6::before{
+	content: '';
+    height: 8px;
+    width: 8px;
+    background-color: #27CC81;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: .5rem;
+}
+
+
+.logo{
+	font-family: font(logo);
+	font-size:3rem;
+	color: color(logo);
+	text-align: center;
+	margin-right: 5rem;
+}
+
+.date{
+	font-size: .8rem;
+	color: color(text);
+	padding-left: 1rem;
+	font-family: font(text);
+}
+.date::before{
+	content: "";
+	width: 10px;
+	height: 10px;
+	background-color:#EE3E52;
+	display:inline-block;
+	transform: rotate(45deg);
+	margin-right: 1.5rem;
+}
+.writer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 1rem;
+	margin-right: 6rem;
+	img{
+		width:50px;
+		height: 50px;
+		border-radius: 50%;
+		display: inline-block;
+	}
+	*{
+		margin: 0 8px;;
+	}
+}
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: color(nav);
+	font-size: .9rem;
+	font-weight: bold;
+	letter-spacing: .2rem;
+}
+
+
+
+.main-container{
+	margin: 0 auto;
 }
